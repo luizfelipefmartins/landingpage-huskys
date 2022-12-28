@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap");
+
+body {
+  background-image: url(./img/fundoneve.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1500px;
+  height: auto;
+  font-family: "Indie Flower", cursive;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 1519px;
+  background-color: rgb(77, 103, 152);
+}
+
+.logo {
+  display: flex;
+  height: 140px;
+}
+
+.imgLogo {
+  height: 100px;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Sarala", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.linkNav {
+  text-decoration: none;
+  color: white;
+}
+
+.linkNav:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+/* MAIN */
+
+main {
+  height: 760px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgb(240, 236, 236);
+  padding-top: 15px;
+}
+
+.containerConteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: 400px;
+  width: 600px;
+}
+
+h1 {
+  font-weight: 408px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  color: #044389;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.containerP {
+  font-family: "Indie Flower", cursive;
+  color: #044389;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.containerButton {
+  width: 270px;
+  height: 45px;
+  font-family: "Sarala", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #044389;
+  color: white;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.containerButton:hover {
+  background-color: white;
+  color: #044389;
+}
+
+.containerImg {
+  display: flex;
+  height: 480px;
+  width: 600px;
+  justify-content: center;
+}
+
+.containerInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  font-family: "Sarala", sans-serif;
+}
+
+h3 {
+  border-top: 1px solid #044389;
+  padding-top: 48px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #044389;
+  padding-bottom: 15px;
+}
+
+.containerParagrafo {
+  line-height: 40px;
+  color: #044389;
+  line-height: 45px;
+}
+
+/* FOOTER */
+
+.footerImg {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 1519px;
+  background-color: #044389;
+  opacity: 70%;
+}
